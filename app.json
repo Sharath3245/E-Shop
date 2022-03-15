@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "E-Shop",
+    "slug": "E-Shop",
+    "version": "1.0.0",
+    "description":"Made by sharath sana for practice of redux & native..where firebase used for realtime database and authentication API's ",
+    "orientation": "portrait",
+    "icon": "./assets/Cart.png",
+    
+    "splash": {
+      "image": "./assets/Cart.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Cart.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+   
+    "web": {
+      "favicon": "./assets/Cart.png"
+    }
+  }
+}
